@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "randommod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Random Mod",
+  "description": "First time using STAPI. Add random stuff.",
   "authors": [
-    "Me!"
+    "ClickNin"
   ],
   "contact": {
-    "homepage": "https://glass-launcher.net/",
-    "sources": "https://github.com/calmilamsy/BIN-fabric-example-mod"
+    "homepage": "https://github.com/ClickNinYT/randommod",
+    "sources": "https://github.com/ClickNinYT/randommod"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/examplemod/icon.png",
+  "license": "MIT",
+  "icon": "assets/randommod/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -36,7 +36,7 @@
     ]
   },
   "mixins": [
-    "examplemod.mixins.json"
+    "randommod.mixins.json"
   ],
 
   "depends": {
